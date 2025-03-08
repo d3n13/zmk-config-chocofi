@@ -97,7 +97,7 @@
             compatible = "zmk,behavior-caps-word";
             label = "CAPS_WORD_SYMB_BEHAVIOR";
             #binding-cells = <0>;
-            continue-list = <UNDERSCORE MINUS>;
+            continue-list = <UNDERSCORE BACKSPACE>;
         };
     };
 
