@@ -39,9 +39,7 @@
             bindings =
                 <&macro_tap>,
                 <&kp N &kp E &kp W &kp SPACE &kp LS(P) &kp R &kp O &kp M &kp I &kp S &kp E &kp LPAR &kp LPAR &kp R &kp E &kp S &kp COMMA &kp R &kp E &kp J &kp RPAR &kp EQUAL &kp GT &kp R &kp E &kp S &kp LPAR &kp RPAR &kp LEFT_BRACE &kp RBRC &kp RPAR &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT>,
-                <&macro_release>,
-                <&macro_tap>,
-                <&kp SPACE>;
+                <&macro_release>;
 
             label = "JS_PROMISE_MACRO";
         };
@@ -63,9 +61,7 @@
             bindings =
                 <&macro_tap>,
                 <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp LBKT &kp S &kp T &kp A &kp T &kp E &kp COMMA &kp S &kp E &kp T &kp LS(S) &kp T &kp A &kp T &kp E &kp RBKT &kp EQUAL &kp U &kp S &kp E &kp LS(S) &kp T &kp A &kp T &kp E &kp LPAR &kp RPAR &kp LEFT>,
-                <&macro_release>,
-                <&macro_tap>,
-                <&kp SPACE>;
+                <&macro_release>;
 
             label = "JSX_USESTATE_MACRO";
         };
@@ -79,6 +75,29 @@
                 <&macro_release>;
 
             label = "JSX_USEREF_MACRO";
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+
+        combo_zx_toggle_setup_layer {
+            bindings = <&mo 7>;
+            key-positions = <25 26>;
+        };
+
+        combo_caps_word_on_shifts {
+            bindings = <&caps_word_symb_behavior>;
+            key-positions = <13 22>;
+        };
+    };
+
+    behaviors {
+        caps_word_symb_behavior: caps_word_symb_behavior {
+            compatible = "zmk,behavior-caps-word";
+            label = "CAPS_WORD_SYMB_BEHAVIOR";
+            #binding-cells = <0>;
+            continue-list = <UNDERSCORE MINUS>;
         };
     };
 
@@ -145,6 +164,15 @@
 &none  &jsx_useEffect_macro  &jsx_useState_macro  &jsx_useRef_macro  &trans  &trans    &tog 1        &bt BT_CLR_ALL  &trans        &trans        &trans        &none
 &none  &trans                &trans               &trans             &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
                                                   &trans             &trans  &trans    &trans        &trans          &trans
+            >;
+        };
+
+        setup {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &tog 1  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans         &trans  &trans  &trans
             >;
         };
     };
