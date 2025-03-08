@@ -28,14 +28,14 @@
         js_promise_macro: js_promise_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N &kp E &kp W &kp SPACE &kp LS(P) &kp R &kp O &kp M &kp I &kp S &kp E &kp LPAR &kp LPAR &kp R &kp E &kp S &kp COMMA &kp R &kp E &kp J &kp RPAR &kp EQUAL &kp GT &kp RBKT &kp R &kp E &kp S &kp LPAR &kp RPAR &kp RBRC &kp RPAR &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT>;
+            bindings = <&kp N &kp E &kp W &kp SPACE &kp LS(P) &kp R &kp O &kp M &kp I &kp S &kp E &kp LPAR &kp LPAR &kp R &kp E &kp S &kp COMMA &kp R &kp E &kp J &kp RPAR &kp EQUAL &kp GT &kp R &kp E &kp S &kp LPAR &kp RPAR &kp LEFT_BRACE &kp RBRC &kp RPAR &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT>;
             label = "JS_PROMISE_MACRO";
         };
 
         jsx_useEffect_macro: jsx_useEffect_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp U &kp S &kp E &kp LS(E) &kp F &kp F &kp E &kp C &kp T &kp LPAR &kp LPAR &kp RPAR &kp EQUAL &kp GT &kp RBKT &kp RBRC &kp COMMA &kp LBKT &kp LBRC &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
+            bindings = <&kp U &kp S &kp E &kp LS(E) &kp F &kp F &kp E &kp C &kp T &kp LPAR &kp LPAR &kp RPAR &kp EQUAL &kp GT &kp RBKT &kp RBRC &kp COMMA &kp LBKT &kp LBRC &kp RPAR &kp LEFT &kp LEFT &kp LEFT &kp LEFT &kp LEFT>;
             label = "JSX_USEEFFECT_MACRO";
         };
 
