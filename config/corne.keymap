@@ -39,7 +39,9 @@
             bindings =
                 <&macro_tap>,
                 <&kp N &kp E &kp W &kp SPACE &kp LS(P) &kp R &kp O &kp M &kp I &kp S &kp E &kp LPAR &kp LPAR &kp R &kp E &kp S &kp COMMA &kp R &kp E &kp J &kp RPAR &kp EQUAL &kp GT &kp R &kp E &kp S &kp LPAR &kp RPAR &kp LEFT_BRACE &kp RBRC &kp RPAR &kp LEFT_ARROW &kp LEFT_ARROW &kp LEFT>,
-                <&macro_release>;
+                <&macro_release>,
+                <&macro_tap>,
+                <&kp SPACE>;
 
             label = "JS_PROMISE_MACRO";
         };
@@ -61,7 +63,9 @@
             bindings =
                 <&macro_tap>,
                 <&kp C &kp O &kp N &kp S &kp T &kp SPACE &kp LBKT &kp S &kp T &kp A &kp T &kp E &kp COMMA &kp S &kp E &kp T &kp LS(S) &kp T &kp A &kp T &kp E &kp RBKT &kp EQUAL &kp U &kp S &kp E &kp LS(S) &kp T &kp A &kp T &kp E &kp LPAR &kp RPAR &kp LEFT>,
-                <&macro_release>;
+                <&macro_release>,
+                <&macro_tap>,
+                <&kp SPACE>;
 
             label = "JSX_USESTATE_MACRO";
         };
