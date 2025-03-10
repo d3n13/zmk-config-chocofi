@@ -12,6 +12,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     macros {
         js_arrow_fn_macro: js_arrow_fn_macro {
