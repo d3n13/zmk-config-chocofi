@@ -16,6 +16,8 @@
 
 &mt { flavor = "balanced"; };
 
+&lt { flavor = "balanced"; };
+
 / {
     macros {
         js_arrow_fn_macro: js_arrow_fn_macro {
