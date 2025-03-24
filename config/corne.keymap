@@ -133,10 +133,10 @@
 
         nums_mouse_misc_layer {
             bindings = <
-&none  &kp N1      &kp N2          &kp N3          &kp N4           &kp N5    &kp N6    &kp N7          &kp N8          &kp N9           &kp N0             &none
-&none  &trans      &trans          &msc SCRL_UP    &trans           &trans    &trans    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp C_VOL_UP       &none
-&none  &kp ESCAPE  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &mo 3     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_VOLUME_DOWN  &none
-                                   &trans          &trans           &trans    &mkp MB1  &mkp MB2        &tog 5
+&trans  &kp N1      &kp N2          &kp N3          &kp N4           &kp N5    &kp N6    &kp N7          &kp N8          &kp N9           &kp N0             &trans
+&trans  &trans      &trans          &msc SCRL_UP    &trans           &trans    &trans    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &kp C_VOL_UP       &trans
+&trans  &kp ESCAPE  &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_RIGHT  &trans    &mo 3     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp C_VOLUME_DOWN  &trans
+                                    &trans          &trans           &trans    &mkp MB1  &mkp MB2        &tog 5
             >;
         };
 
@@ -151,18 +151,18 @@
 
         symbols_arrows_layer {
             bindings = <
-&none  &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK  &kp HASH     &kp PRCNT  &kp EQUAL     &kp EXCL  &kp UNDER  &kp MINUS  &none
-&none  &kp AT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR    &kp TILDE    &kp GRAVE  &kp QUESTION  &kp UP    &kp SQT    &kp PIPE   &none
-&none  &kp GRAVE  &kp LBKT              &kp RBKT               &kp CARET     &kp COLON    &kp AMPS   &kp LEFT      &kp DOWN  &kp RIGHT  &kp BSLH   &none
-                                        &trans                 &trans        &trans       &trans     &trans        &trans
+&trans  &kp PLUS   &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp ASTERISK  &kp HASH     &kp PRCNT  &kp EQUAL     &kp EXCL  &kp UNDER  &kp MINUS  &trans
+&trans  &kp AT     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR    &kp TILDE    &kp GRAVE  &kp QUESTION  &kp UP    &kp SQT    &kp PIPE   &trans
+&trans  &kp GRAVE  &kp LBKT              &kp RBKT               &kp CARET     &kp COLON    &kp AMPS   &kp LEFT      &kp DOWN  &kp RIGHT  &kp BSLH   &trans
+                                         &trans                 &trans        &trans       &trans     &trans        &trans
             >;
         };
 
         gaming_layer {
             bindings = <
-&trans  &kp ESC           &kp Q  &kp W  &kp E    &kp R        &kp Y      &kp U    &kp I      &kp O    &kp P     &none
+&trans  &kp ESC           &kp Q  &kp W  &kp E    &kp R        &kp Y      &kp U    &kp I      &kp O    &kp P     &trans
 &trans  &kp LEFT_SHIFT    &kp A  &kp S  &kp D    &kp F        &kp H      &kp J    &kp K      &kp L    &kp SEMI  &trans
-&trans  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C    &kp V        &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &none
+&trans  &kp LEFT_CONTROL  &kp Z  &kp X  &kp C    &kp V        &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &trans
                                  &mo 6  &kp TAB  &kp SPACE    &kp ENTER  &kp TAB  &tog 5
             >;
         };
@@ -178,10 +178,10 @@
 
         setup_and_macros_layer {
             bindings = <
-&none  &js_arrow_fn_macro    &js_fn_macro         &js_promise_macro  &trans  &trans    &trans        &soft_off       &ext_power EP_ON   &sys_reset    &bootloader   &none
-&none  &jsx_useEffect_macro  &jsx_useState_macro  &jsx_useRef_macro  &trans  &trans    &tog 1        &bt BT_CLR_ALL  &ext_power EP_OFF  &out OUT_BLE  &out OUT_USB  &none
-&none  &trans                &trans               &trans             &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4  &none
-                                                  &trans             &trans  &trans    &trans        &trans          &trans
+&trans  &js_arrow_fn_macro    &js_fn_macro         &js_promise_macro  &trans  &trans    &trans        &soft_off       &ext_power EP_ON   &sys_reset    &bootloader   &trans
+&trans  &jsx_useEffect_macro  &jsx_useState_macro  &jsx_useRef_macro  &trans  &trans    &tog 1        &bt BT_CLR_ALL  &ext_power EP_OFF  &out OUT_BLE  &out OUT_USB  &trans
+&trans  &trans                &trans               &trans             &trans  &trans    &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2       &bt BT_SEL 3  &bt BT_SEL 4  &trans
+                                                   &trans             &trans  &trans    &trans        &trans          &trans
             >;
         };
 
