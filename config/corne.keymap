@@ -187,9 +187,9 @@
 
         setup_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &tog 1  &trans         &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader    &trans  &trans  &trans  &trans  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_INC  &trans
+&trans  &trans  &trans  &trans  &tog 1  &trans         &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC  &trans
                         &trans  &trans  &trans         &trans  &trans  &trans
             >;
         };
