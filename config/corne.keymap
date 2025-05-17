@@ -1189,8 +1189,8 @@
 
         unicode_hex_ru_lc {
             bindings = <
-&trans  &unicode_ru_i_kratkaya  &unicode_ru_ts  &unicode_ru_u  &unicode_ru_k  &unicode_ru_e    &unicode_ru_n  &unicode_ru_g             &unicode_ru_sh  &unicode_ru_shch  &unicode_ru_z   &trans
-&trans  &unicode_ru_f           &unicode_ru_y   &unicode_ru_v  &unicode_ru_a  &unicode_ru_p    &unicode_ru_r  &unicode_ru_o             &unicode_ru_l   &unicode_ru_d     &unicode_ru_zh  &trans
+&trans  &unicode_ru_i_kratkaya_lc &unicode_ru_ts_lc &unicode_ru_u_lc &unicode_ru_k_lc &unicode_ru_e_lc &unicode_ru_n_lc &unicode_ru_g_lc &unicode_ru_sh_lc &unicode_ru_shch_lc &unicode_ru_z_lc   &trans
+&trans  &unicode_ru_ya_lc &unicode_ru_ch_lc &unicode_ru_s_lc &unicode_ru_m_lc &unicode_ru_i_lc &unicode_ru_t_lc &unicode_ru_myagkii_znak_lc &unicode_ru_b_lc &unicode_ru_yu_lc &trans
 &trans  &unicode_ru_ya          &unicode_ru_ch  &unicode_ru_s  &unicode_ru_m  &unicode_ru_i    &unicode_ru_t  &unicode_ru_myagkii_znak  &unicode_ru_b   &unicode_ru_yu    &trans          &trans
                                                 &trans         &trans         &trans           &trans         &trans
             >;
@@ -1198,9 +1198,9 @@
 
         unicode_hex_ru_uc {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &unicode_ru_i_kratkaya_uc &unicode_ru_ts_uc &unicode_ru_u_uc &unicode_ru_k_uc &unicode_ru_e_uc &unicode_ru_n_uc &unicode_ru_g_uc &unicode_ru_sh_uc &unicode_ru_shch_uc &unicode_ru_z_uc  &trans
+&trans  &unicode_ru_f_uc &unicode_ru_y_uc &unicode_ru_v_uc &unicode_ru_a_uc &unicode_ru_p_uc &unicode_ru_r_uc &unicode_ru_o_uc &unicode_ru_l_uc &unicode_ru_d_uc &unicode_ru_zh_uc  &trans
+&trans &unicode_ru_ya_uc &unicode_ru_ch_uc &unicode_ru_s_uc &unicode_ru_m_uc &unicode_ru_i_uc &unicode_ru_t_uc &unicode_ru_myagkii_znak_uc &unicode_ru_b_uc &unicode_ru_yu_uc &trans
                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
