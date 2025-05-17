@@ -21,532 +21,499 @@
 / {
     macros {
         unicode_ru_i_kratkaya: unicode_ru_i_kratkaya {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N9>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_I_KRATKAYA";
-        };
-
-        unicode_ru_ts: unicode_ru_ts {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N6>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_TS";
-        };
-
-        unicode_ru_u: unicode_ru_u {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N3>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_U";
-        };
-
-        unicode_ru_k: unicode_ru_k {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp A>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_K";
-        };
-
-        unicode_ru_e: unicode_ru_e {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N5>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_E";
-        };
-
-        unicode_ru_n: unicode_ru_n {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp D>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_N";
-        };
-
-        unicode_ru_g: unicode_ru_g {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N3>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_G";
-        };
-
-        unicode_ru_sh: unicode_ru_sh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N8>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_SH";
-        };
-
-        unicode_ru_shch: unicode_ru_shch {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N9>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_SHCH";
-        };
-
-        unicode_ru_z: unicode_ru_z {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N7>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_Z";
-        };
-
-        unicode_ru_kh: unicode_ru_kh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N5>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_KH";
-        };
-
-        unicode_ru_tvjordii_znak: unicode_ru_tvjordii_znak {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp A>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_TVJORDII_ZNAK";
-        };
-
-        unicode_ru_f: unicode_ru_f {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N4>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_F";
-        };
-
-        unicode_ru_y: unicode_ru_y {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp B>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_Y";
-        };
-
-        unicode_ru_v: unicode_ru_v {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N2>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_V";
-        };
-
-        unicode_ru_a: unicode_ru_a {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N0>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_A";
-        };
-
-        unicode_ru_p: unicode_ru_p {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp F>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_P";
-        };
-
-        unicode_ru_r: unicode_ru_r {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N0>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_R";
-        };
-
-        unicode_ru_o: unicode_ru_o {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp E>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_O";
-        };
-
-        unicode_ru_l: unicode_ru_l {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp B>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_L";
-        };
-
-        unicode_ru_d: unicode_ru_d {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N4>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_D";
-        };
-
-        unicode_ru_zh: unicode_ru_zh {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N6>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_ZH";
-        };
-
-        unicode_ru_ee: unicode_ru_ee {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp D>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_EE";
-        };
-
-        unicode_ru_yo: unicode_ru_yo {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N5 &kp KP_N1>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_YO";
-        };
-
-        unicode_ru_ya: unicode_ru_ya {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp F>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_YA";
-        };
-
-        unicode_ru_ch: unicode_ru_ch {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N7>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_CH";
-        };
-
-        unicode_ru_s: unicode_ru_s {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N1>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_S";
-        };
-
-        unicode_ru_m: unicode_ru_m {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp C>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_M";
-        };
-
-        unicode_ru_i: unicode_ru_i {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N8>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_I";
-        };
-
-        unicode_ru_t: unicode_ru_t {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N2>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_T";
-        };
-
-        unicode_ru_myagkii_znak: unicode_ru_myagkii_znak {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp C>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_MYAGKII_ZNAK";
-        };
-
-        unicode_ru_b: unicode_ru_b {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N1>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_B";
-        };
-
-        unicode_ru_yu: unicode_ru_yu {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            wait-ms = <5>;
-            tap-ms = <5>;
-            bindings =
-                <&macro_press>,
-                <&kp LALT>,
-                <&macro_tap>,
-                <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp E>,
-                <&macro_release>,
-                <&kp LALT>;
-
-            label = "UNICODE_RU_YU";
-        };
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N9>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "й";
+         };
+         
+         unicode_ru_ts: unicode_ru_ts {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N6>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ц";
+         };
+         
+         unicode_ru_u: unicode_ru_u {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N3>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "у";
+         };
+         
+         unicode_ru_k: unicode_ru_k {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp A>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "к";
+         };
+         
+         unicode_ru_e: unicode_ru_e {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N5>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "е";
+         };
+         
+         unicode_ru_n: unicode_ru_n {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp D>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "н";
+         };
+         
+         unicode_ru_g: unicode_ru_g {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N3>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "г";
+         };
+         
+         unicode_ru_sh: unicode_ru_sh {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N8>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ш";
+         };
+         
+         unicode_ru_shch: unicode_ru_shch {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N9>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "щ";
+         };
+         
+         unicode_ru_z: unicode_ru_z {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N7>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "з";
+         };
+         
+         unicode_ru_kh: unicode_ru_kh {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N5>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "х";
+         };
+         
+         unicode_ru_tvjordii_znak: unicode_ru_tvjordii_znak {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp A>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ъ";
+         };
+         
+         unicode_ru_f: unicode_ru_f {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N4>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ф";
+         };
+         
+         unicode_ru_y: unicode_ru_y {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp B>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ы";
+         };
+         
+         unicode_ru_v: unicode_ru_v {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N2>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "в";
+         };
+         
+         unicode_ru_a: unicode_ru_a {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N0>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "а";
+         };
+         
+         unicode_ru_p: unicode_ru_p {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp F>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "п";
+         };
+         
+         unicode_ru_r: unicode_ru_r {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N0>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "р";
+         };
+         
+         unicode_ru_o: unicode_ru_o {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp E>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "о";
+         };
+         
+         unicode_ru_l: unicode_ru_l {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp B>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "л";
+         };
+         
+         unicode_ru_d: unicode_ru_d {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N4>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "д";
+         };
+         
+         unicode_ru_zh: unicode_ru_zh {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N6>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ж";
+         };
+         
+         unicode_ru_ee: unicode_ru_ee {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp D>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "э";
+         };
+         
+         unicode_ru_yo: unicode_ru_yo {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N5 &kp KP_N1>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ё";
+         };
+         
+         unicode_ru_ya: unicode_ru_ya {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp F>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "я";
+         };
+         
+         unicode_ru_ch: unicode_ru_ch {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N7>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ч";
+         };
+         
+         unicode_ru_s: unicode_ru_s {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N1>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "с";
+         };
+         
+         unicode_ru_m: unicode_ru_m {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp C>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "м";
+         };
+         
+         unicode_ru_i: unicode_ru_i {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N8>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "и";
+         };
+         
+         unicode_ru_t: unicode_ru_t {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N2>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "т";
+         };
+         
+         unicode_ru_myagkii_znak: unicode_ru_myagkii_znak {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp C>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ь";
+         };
+         
+         unicode_ru_b: unicode_ru_b {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N1>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "б";
+         };
+         
+         unicode_ru_yu: unicode_ru_yu {
+           compatible = "zmk,behavior-macro";
+           #binding-cells = <0>;
+           wait-ms = <5>;
+           tap-ms = <5>;
+           bindings =
+               <&macro_press>,
+               <&kp LALT>,
+               <&macro_tap>,
+               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp E>,
+               <&macro_release>,
+               <&kp LALT>;
+           label = "ю";
+         };
 
         unicode_test: unicode_test {
             compatible = "zmk,behavior-macro";
