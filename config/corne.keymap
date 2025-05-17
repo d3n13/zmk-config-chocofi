@@ -350,7 +350,7 @@
           label = "UNICODE_RU_ZH";
         };
   
-        unicode_ru_e: unicode_ru_e {
+        unicode_ru_ee: unicode_ru_ee {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -362,7 +362,7 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp D>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_RU_E";
+          label = "UNICODE_RU_EE";
         };
   
         unicode_ru_yo: unicode_ru_yo {
