@@ -20,7 +20,7 @@
 
 / {
     macros {
-        unicode_й: unicode_й {
+        unicode_ru_i_kratkaya: unicode_ru_i_kratkaya {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -32,10 +32,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N9>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Й";
+          label = "UNICODE_RU_I_KRATKAYA";
         };
   
-        unicode_ц: unicode_ц {
+        unicode_ru_ts: unicode_ru_ts {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -47,10 +47,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N6>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ц";
+          label = "UNICODE_RU_TS";
         };
   
-        unicode_у: unicode_у {
+        unicode_ru_u: unicode_ru_u {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -62,10 +62,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N3>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_У";
+          label = "UNICODE_RU_U";
         };
   
-        unicode_к: unicode_к {
+        unicode_ru_k: unicode_ru_k {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -77,10 +77,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp A>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_К";
+          label = "UNICODE_RU_K";
         };
   
-        unicode_е: unicode_е {
+        unicode_ru_e: unicode_ru_e {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -92,10 +92,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N5>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Е";
+          label = "UNICODE_RU_E";
         };
   
-        unicode_н: unicode_н {
+        unicode_ru_n: unicode_ru_n {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -107,10 +107,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp D>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Н";
+          label = "UNICODE_RU_N";
         };
   
-        unicode_г: unicode_г {
+        unicode_ru_g: unicode_ru_g {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -122,10 +122,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N3>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Г";
+          label = "UNICODE_RU_G";
         };
   
-        unicode_ш: unicode_ш {
+        unicode_ru_sh: unicode_ru_sh {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -137,10 +137,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N8>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ш";
+          label = "UNICODE_RU_SH";
         };
   
-        unicode_щ: unicode_щ {
+        unicode_ru_shch: unicode_ru_shch {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -152,10 +152,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N9>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Щ";
+          label = "UNICODE_RU_SHCH";
         };
   
-        unicode_з: unicode_з {
+        unicode_ru_z: unicode_ru_z {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -167,10 +167,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N7>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_З";
+          label = "UNICODE_RU_Z";
         };
   
-        unicode_х: unicode_х {
+        unicode_ru_kh: unicode_ru_kh {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -182,10 +182,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N5>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Х";
+          label = "UNICODE_RU_KH";
         };
   
-        unicode_ъ: unicode_ъ {
+        unicode_ru_tvjordii_znak: unicode_ru_tvjordii_znak {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -197,10 +197,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp A>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ъ";
+          label = "UNICODE_RU_TVJORDII_ZNAK";
         };
   
-        unicode_ф: unicode_ф {
+        unicode_ru_f: unicode_ru_f {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -212,10 +212,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N4>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ф";
+          label = "UNICODE_RU_F";
         };
   
-        unicode_ы: unicode_ы {
+        unicode_ru_y: unicode_ru_y {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -227,10 +227,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp B>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ы";
+          label = "UNICODE_RU_Y";
         };
   
-        unicode_в: unicode_в {
+        unicode_ru_v: unicode_ru_v {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -242,10 +242,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N2>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_В";
+          label = "UNICODE_RU_V";
         };
   
-        unicode_а: unicode_а {
+        unicode_ru_a: unicode_ru_a {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -257,10 +257,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N0>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_А";
+          label = "UNICODE_RU_A";
         };
   
-        unicode_п: unicode_п {
+        unicode_ru_p: unicode_ru_p {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -272,10 +272,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp F>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_П";
+          label = "UNICODE_RU_P";
         };
   
-        unicode_р: unicode_р {
+        unicode_ru_r: unicode_ru_r {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -287,10 +287,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N0>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Р";
+          label = "UNICODE_RU_R";
         };
   
-        unicode_о: unicode_о {
+        unicode_ru_o: unicode_ru_o {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -302,10 +302,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp E>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_О";
+          label = "UNICODE_RU_O";
         };
   
-        unicode_л: unicode_л {
+        unicode_ru_l: unicode_ru_l {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -317,10 +317,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp B>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Л";
+          label = "UNICODE_RU_L";
         };
   
-        unicode_д: unicode_д {
+        unicode_ru_d: unicode_ru_d {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -332,10 +332,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N4>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Д";
+          label = "UNICODE_RU_D";
         };
   
-        unicode_ж: unicode_ж {
+        unicode_ru_zh: unicode_ru_zh {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -347,10 +347,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N6>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ж";
+          label = "UNICODE_RU_ZH";
         };
   
-        unicode_э: unicode_э {
+        unicode_ru_e: unicode_ru_e {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -362,10 +362,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp D>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Э";
+          label = "UNICODE_RU_E";
         };
   
-        unicode_ё: unicode_ё {
+        unicode_ru_yo: unicode_ru_yo {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -377,10 +377,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N5 &kp KP_N1>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ё";
+          label = "UNICODE_RU_YO";
         };
   
-        unicode_я: unicode_я {
+        unicode_ru_ya: unicode_ru_ya {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -392,10 +392,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp F>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Я";
+          label = "UNICODE_RU_YA";
         };
   
-        unicode_ч: unicode_ч {
+        unicode_ru_ch: unicode_ru_ch {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -407,10 +407,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N7>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ч";
+          label = "UNICODE_RU_CH";
         };
   
-        unicode_с: unicode_с {
+        unicode_ru_s: unicode_ru_s {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -422,10 +422,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N1>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_С";
+          label = "UNICODE_RU_S";
         };
   
-        unicode_м: unicode_м {
+        unicode_ru_m: unicode_ru_m {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -437,10 +437,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp C>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_М";
+          label = "UNICODE_RU_M";
         };
   
-        unicode_и: unicode_и {
+        unicode_ru_i: unicode_ru_i {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -452,10 +452,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N8>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_И";
+          label = "UNICODE_RU_I";
         };
   
-        unicode_т: unicode_т {
+        unicode_ru_t: unicode_ru_t {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -467,10 +467,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp KP_N2>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Т";
+          label = "UNICODE_RU_T";
         };
   
-        unicode_ь: unicode_ь {
+        unicode_ru_myagkii_znak: unicode_ru_myagkii_znak {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -482,10 +482,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp C>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ь";
+          label = "UNICODE_RU_MYAGKII_ZNAK";
         };
   
-        unicode_б: unicode_б {
+        unicode_ru_b: unicode_ru_b {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -497,10 +497,10 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N3 &kp KP_N1>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Б";
+          label = "UNICODE_RU_B";
         };
   
-        unicode_ю: unicode_ю {
+        unicode_ru_yu: unicode_ru_yu {
           compatible = "zmk,behavior-macro";
           #binding-cells = <0>;
           wait-ms = <5>;
@@ -512,9 +512,9 @@
               <&kp KP_N0 &kp KP_N4 &kp KP_N4 &kp E>,
               <&macro_release>,
               <&kp LALT>;
-          label = "UNICODE_Ю";
+          label = "UNICODE_RU_YU";
         };
-        
+
         unicode_test: unicode_test {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
