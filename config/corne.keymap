@@ -6,7 +6,6 @@
 
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20   // default: 10
-
 #define HOST_OS 2 /* for the zmk-helpers, MacOS specific unicode hex input */
 
 #include <behaviors.dtsi>
@@ -15,7 +14,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
-
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/russian.dtsi"
 
@@ -1194,10 +1192,10 @@
 
         unicode_hex_ru_lower {
             bindings = <
-&trans &ru_y  &ru_ts &ru_u &ru_k &ru_ye  &ru_n &ru_g    &ru_sh &ru_shch &ru_z  &trans
-&trans &ru_f  &ru_bi &ru_v &ru_a &ru_p   &ru_r &ru_o    &ru_l  &ru_d    &ru_zh &trans
-&trans &ru_ya &ru_ch &ru_s &ru_m &ru_i   &ru_t &ru_soft &ru_b  &ru_yu   &ru_yo &trans
-    &trans &trans &mt LEFT_SHIFT SPACE   &trans &trans &trans
+&trans  &ru_y   &ru_ts  &ru_u   &ru_k   &ru_ye                  &ru_n   &ru_g     &ru_sh  &ru_shch  &ru_z   &trans
+&trans  &ru_f   &ru_bi  &ru_v   &ru_a   &ru_p                   &ru_r   &ru_o     &ru_l   &ru_d     &ru_zh  &trans
+&trans  &ru_ya  &ru_ch  &ru_s   &ru_m   &ru_i                   &ru_t   &ru_soft  &ru_b   &ru_yu    &ru_yo  &trans
+                        &trans  &trans  &mt LEFT_SHIFT SPACE    &trans  &trans    &trans
             >;
         };
 
@@ -1206,7 +1204,7 @@
 &trans  &unicode_ru_i_kratkaya_uc  &unicode_ru_ts_uc  &unicode_ru_u_uc  &unicode_ru_k_uc  &unicode_ru_e_uc    &unicode_ru_n_uc  &unicode_ru_g_uc             &unicode_ru_sh_uc  &unicode_ru_shch_uc  &unicode_ru_z_uc   &trans
 &trans  &unicode_ru_f_uc           &unicode_ru_y_uc   &unicode_ru_v_uc  &unicode_ru_a_uc  &unicode_ru_p_uc    &unicode_ru_r_uc  &unicode_ru_o_uc             &unicode_ru_l_uc   &unicode_ru_d_uc     &unicode_ru_zh_uc  &trans
 &trans  &unicode_ru_ya_uc          &unicode_ru_ch_uc  &unicode_ru_s_uc  &unicode_ru_m_uc  &unicode_ru_i_uc    &unicode_ru_t_uc  &unicode_ru_myagkii_znak_uc  &unicode_ru_b_uc   &unicode_ru_yu_uc    &trans             &trans
-                                                      &trans            &trans            &mt LCTRL SPACE              &trans            &trans
+                                                      &trans            &trans            &mt LCTRL SPACE     &trans            &trans
             >;
         };
 
@@ -1248,10 +1246,10 @@
 
         gaming_2_layer {
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans
-&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp F1  &kp F2    &kp F3        &kp F4     &kp F5  &trans
+&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0    &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans    &trans
             >;
         };
 
